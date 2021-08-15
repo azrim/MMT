@@ -33,7 +33,7 @@ REPLACE_EXAMPLE="
 "
 
 # Construct your own list here
-REPLACE="
+REPLACE="/system/vendor/etc/init/init.performance_level.rc
 "
 
 ##########################################################################################

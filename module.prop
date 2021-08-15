@@ -1,7 +1,7 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v1.6
-versionCode=7
-author=Zackptg5
+id=GamingMode-init
+name=ExTHmUI Gaming Mode perf level
+version=v0.1
+versionCode=1
+author=azrim89
 description=
 support=https://forum.xda-developers.com/apps/magisk/MMT-Extended

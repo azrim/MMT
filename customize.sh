@@ -33,7 +33,7 @@ REPLACE_EXAMPLE="
 "
 
 # Construct your own list here
-REPLACE="/system/vendor/etc/init/init.performance_level.rc
+REPLACE="/vendor/etc/init/init.performance_level.rc
 "
 
 ##########################################################################################
@@ -56,7 +56,7 @@ set_permissions() {
   # set_perm  <filename>                         <owner> <group> <permission> <contexts> (default: u:object_r:system_file:s0)
   
   # set_perm $MODPATH/system/lib/libart.so 0 0 0644
-  # set_perm /data/local/tmp/file.txt 0 0 644
+  set_perm /vendor/etc/init/init.performance_level.rc 0 0 644
 }
 
 ##########################################################################################
